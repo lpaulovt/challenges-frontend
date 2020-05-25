@@ -1,0 +1,144 @@
+/* === INTRO === */
+
+.intro {
+    width: 100%;
+    background: hsl(256, 26%, 20%);
+
+}
+
+.container {
+    position: relative;
+}
+
+.intro__bg-image-right {
+    z-index: 3;
+    position: absolute;
+    top: -75px;
+    right: 0;
+}
+
+.intro__bg-image-right-mobile{
+    display:none
+}
+
+.intro__bg-image-left-mobile {
+    display: none;
+}
+
+.intro__wrapper {
+    width: 77%;
+    margin: 0 auto;
+    padding: 105px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.intro__info{
+    width:100%;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+.intro__info hr {
+    width: 150px;
+    height: 1px;
+    background:  hsl(0, 0%, 98%);
+    margin-bottom: 85px;
+}
+
+.intro__info h1 {
+    font-size: 56px;
+    font-weight: normal;
+    line-height: 50px;
+    color:hsl(0, 0%, 98%);
+    margin-bottom: 40px;
+}
+
+.intro__info h2 {
+    font-family: 'Karla', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color:hsl(0, 0%, 98%);
+    margin-bottom: 40px;
+
+}
+
+.intro__btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    color: hsl(0, 0%, 98%);
+    border: 2px solid hsl(0, 0%, 98%);
+    padding: 15px 30px;
+
+}
+
+.intro__image {
+    position: relative;
+    min-width: 330px;
+}
+.intro__image img {
+    width: 100%;
+    z-index:5;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+.intro__btn:hover {
+    background: hsl(0, 0%, 98%);
+    color: hsl(256, 26%, 20%);
+    transition: 350ms;
+}
+
+.responsive__image {
+    display:none;
+}
+
+@media only screen and (max-width: 820px) {
+    .intro {
+        position: relative;
+    }
+    .intro__image {
+        display: none;
+    }
+
+    .responsive__image {
+        display: initial;
+        width:100%;
+        z-index: 4;
+        position: relative;
+        
+    }
+
+    .intro__bg-image-right, .about__bg-image-left, .intro__info hr {
+        display: none;
+    }
+
+    .intro__bg-image-right-mobile {
+        display:initial;
+        z-index: 3;
+        position: absolute;
+        bottom: -150px;
+        right: 0;
+    }
+
+    .intro__bg-image-left-mobile {
+        display:initial;
+        z-index: 3;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .intro__wrapper {
+        grid-template-columns: 1fr;
+        padding-bottom: 40px;
+    }
+
+    .intro__info {
+        text-align: center;
+        padding-right: 0;
+    }
+}

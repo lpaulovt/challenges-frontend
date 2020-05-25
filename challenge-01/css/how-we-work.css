@@ -1,0 +1,73 @@
+
+/* === HOW WE WORK === */
+.how-we-work {
+    width: 77%;
+    min-height: 250px;
+    margin: 0 auto 150px;
+    position: relative;
+}
+
+.how-we-work__wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 80px;
+    background: hsl(256, 26%, 20%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.how-we-work__title {
+    font-size: 56px;
+    font-weight: normal;
+    line-height: 50px;
+    color:hsl(0, 0%, 98%);
+}
+
+.how-we-work__bg-image {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.how-we-work__btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    color: hsl(0, 0%, 98%);
+    border: 2px solid hsl(0, 0%, 98%);
+    padding: 15px 30px;
+    z-index: 2;
+    position: absolute;
+    right: 80px;
+}
+
+.how-we-work__btn:hover {
+    background: hsl(0, 0%, 98%);
+    color: hsl(256, 26%, 20%);
+    transition: 350ms;
+}
+
+@media only screen and (max-width: 1120px) {
+    .how-we-work__wrapper{
+        flex-direction: column;
+        padding: 85px 0 75px;
+    }
+
+    .how-we-work__title {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .how-we-work__btn {
+        position: initial;
+    }
+
+    .how-we-work__bg-image {
+        width: 100%;
+    }
+}
