@@ -56,13 +56,44 @@ header {
       transition: 350ms ease-in-out;
   }
 
-  .nav__mobile-menu {
+  .nav-icon {
       display:none;
+      cursor: pointer;
+      width: 32px;
+      height: 32px;
+      border: 2px solid hsl(256, 26%, 20%);
+      padding: 5px 3px;
+  }
+
+  .hamburger-bar {
+      width: 16px;
+      height: 2px;
+      background: hsl(256, 26%, 20%);
+      position: relative;
+  }
+
+  .hamburger-bar::before, .hamburger-bar::after {
+      position: absolute;
+      content:'';
+      width: 100%;
+      height: 2px;
+      background: hsl(256, 26%, 20%);
+          
+  }
+
+  .hamburger-bar::before {
+    bottom: 3px;
+  }
+
+  .hamburger-bar::after {
+      top: 3px;
   }
 
   @media only screen and (max-width:820px) {
-    .nav__mobile-menu {
-        display:initial;
+    .nav-icon {
+        display:flex;
+        justify-content: center;
+        align-items: center;
     }
     
     .nav__wrapper .links {
