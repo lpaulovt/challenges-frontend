@@ -36,7 +36,8 @@ main {
     justify-content: space-between;
 }
 .intro__info{
-    width:100%;
+    width: 100%;
+    max-width:530px;
     padding-right: 20px;
     padding-bottom: 40px;
 }
@@ -80,6 +81,8 @@ main {
 .intro__image {
     position: relative;
     min-width: 330px;
+    max-width:530px;
+    width: 100%;
 }
 .intro__image img {
     width: 100%;
