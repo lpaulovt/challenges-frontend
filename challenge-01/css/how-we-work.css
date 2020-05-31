@@ -32,6 +32,14 @@
     height: 100%;
 }
 
+.how-we-work__mobile-image{
+    display:none;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 .how-we-work__btn {
     text-transform: uppercase;
     text-decoration: none;
@@ -68,6 +76,9 @@
     }
 
     .how-we-work__bg-image {
-        width: 100%;
+        display:none;
+    }
+    .how-we-work__mobile-image{
+        display:initial;
     }
 }
