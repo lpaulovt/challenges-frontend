@@ -147,7 +147,9 @@ main {
         text-align: center;
         padding-right: 0;
     }
+}
 
+@media only screen and (max-width: 350px){
     .intro__info h1 {
         font-size: 15vw;
     }
