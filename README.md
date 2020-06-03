@@ -57,7 +57,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com). From 
 $ git clone https://github.com/lpaulovt/challenges-frontend
 
 # Go into the repository
-$ cd ecoleta-nlw-rocketseat
+$ cd challenges-frontend
 
 # Run the app
 $ open in your browser
