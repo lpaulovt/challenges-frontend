@@ -1,7 +1,5 @@
 <h1 align="center">
-    <img alt="Wallpaper Paulo" src=".github/wallpaper-paulo.jpg" width="480" height="270"/>
-    <br>
-    Front-end challenges
+    <img alt="Wallpaper Paulo" src=".github/wallpaper-paulo.jpg" width="449" height="150"/>
 </h1>
 
 <h4 align="center">
