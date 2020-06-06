@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Wallpaper Paulo" src=".github/logo-repository.jpg" width="449" height="150"/>
+    <img alt="Wallpaper Paulo" src=".github/logo-repository.jpg" width="224.5" height="75"/>
 </h1>
 
 <h4 align="center">
